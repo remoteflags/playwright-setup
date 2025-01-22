@@ -1,0 +1,26 @@
+{
+  "name": "playwright-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remoteflags/playwright-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/remoteflags/playwright-setup/issues"
+  },
+  "homepage": "https://github.com/remoteflags/playwright-setup#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
+}
